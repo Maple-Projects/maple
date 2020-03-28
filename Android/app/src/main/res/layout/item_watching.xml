@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:padding="10dp"
+    android:background="@drawable/border_bottom"
+    android:elevation="5dp"
+    >
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="110dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_marginRight="8dp"
+        android:id="@+id/imageItem" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+
+            android:gravity="center_vertical"
+            android:layout_weight="3"
+            android:textColor="@color/colorWhiteAni"
+            android:layout_height="0dp"
+            android:text="Kono subarashii sekai ni shukufuku o!" />
+        <TextView
+            android:id="@+id/currentStatus"
+            android:layout_width="match_parent"
+
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:textColor="@color/colorWhiteAni"
+            android:layout_height="0dp"
+            android:text="Airing" />
+        <TextView
+            android:id="@+id/timeOrStatus"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/colorWhiteAni"
+
+            android:gravity="center_vertical"
+            android:layout_height="0dp"
+            android:text="Ep 13 in 5d:12h:13mn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:gravity="bottom"
+
+            >
+            <ImageView
+                android:id="@+id/btnUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_addbox"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:textAlignment="center"
+            android:layout_height="0dp"
+            android:textColor="@color/colorWhiteAni"
+            android:text="12/26" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

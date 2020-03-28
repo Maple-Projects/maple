@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBlueAni">#0f91d7</color>
+    <color name="colorDarkAni">#272C38</color>
+    <color name="colorDarkAniOpa">#CC272C38</color>
+    <color name="colorWhiteAni">#EDF1F5</color>
+</resources>
