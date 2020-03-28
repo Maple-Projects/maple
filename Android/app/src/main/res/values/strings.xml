@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AniClean</string>
+    <string name="app_name">Maple</string>
     <string name="navigation_drawer_open">Open</string>
     <string name="navigation_drawer_close">Close</string>
     <string name="logOut">Log out</string>
